@@ -30,13 +30,13 @@ while True:
     Prompt the user to enter their credentials
     make it more interactive
     """
-    # student_id = input("Enter your ID:\n") enter my ug student id
-    # password = getpass.getpass("Enter your password (hidden):\n") enter my ug student password
+    # student_id = input("Enter your ID:\n") 
+    # password = getpass.getpass("Enter your password (hidden):\n") 
 
     # If you prefer to open sakai without entering your 
     # credentials over and over again. 
-    student_id = "22032451"
-    password = "48318"
+    student_id = "enter my ug student id"
+    password = "enter my ug student password"
 
 
     preferred_browser = webdriver.Chrome()
@@ -45,7 +45,7 @@ while True:
     login_into_sakai(preferred_browser, student_id, password)
 
     # Keep the browser open the time i prefer to stay on Sakai
-    time.sleep(10)  # 5min = 60 x 5 = (300) [time in seconds]
+    time.sleep(300)  # 5min = 60 x 5 = (300) [time in seconds]
     preferred_browser.quit()
 
     # Prompt to retry login or end the loop

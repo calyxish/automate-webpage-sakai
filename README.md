@@ -25,7 +25,7 @@ The automated login script has significantly improved my workflow, eliminating t
 
 ## 3. Project Preview
 
-![Project Preview]()
+![Project Preview](automated-sakai_preview.png)
 
 
 ## 4. Installation
